@@ -1,29 +1,45 @@
 const Projects = () => {
   const projects = [
     {
-  title: "Smart Grocery Web App",
-  desc: "A MERN-based ecommerce platform enabling online orders, cart checkout, and inventory management.",
-  tech: ["React", "Node.js", "MongoDB", "Express"],
-  img: "https://images.unsplash.com/photo-1584270354949-1c7a97c189c0",
-  live: "#",
-  github: "#",
-},
-
-    {
-      title: "Student Task Manager",
-      desc: "Task and notes manager for students with reminders and authentication support.",
-      tech: ["React", "Tailwind", "Express", "MongoDB"],
-      img: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2", // laptop productivity image
-      live: "#",
-      github: "#",
+      title: "Coursify – Full Stack LMS",
+      desc: "Course platform with authentication & role-based access, course enrollment, student dashboard, and optimized backend queries.",
+      highlights: [
+        "Authentication & role-based access",
+        "Course enrollment & dashboard",
+        "Responsive UI with React + Tailwind",
+        "Optimized backend & queries",
+      ],
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT"],
+      img: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&q=80",
+      live: "https://course-hub-pied.vercel.app/",
+      github: "https://github.com/rajankumarrkr/CourseHub",
     },
     {
-      title: "Portfolio Website",
-      desc: "A sleek and responsive MERN portfolio showcasing services, projects, and contact integration.",
-      tech: ["React", "Tailwind", "Node.js"],
-      img: "https://images.unsplash.com/photo-1551650975-87deedd944c3", // design mockup image
-      live: "#",
-      github: "#",
+      title: "TravelMate – Trip Planning App",
+      desc: "Full-stack MERN trip planning app with JWT authentication, dynamic itinerary generation, and expense tracking with category aggregation.",
+      highlights: [
+        "JWT authentication",
+        "Dynamic itinerary generation",
+        "Expense tracking & category aggregation",
+        "Controller–Service–Model architecture",
+      ],
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT", "Axios"],
+      img: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80",
+      live: "https://travel-mate-mu-five.vercel.app/",
+      github: "https://github.com/rajankumarrkr/TravelMate",
+    },
+    {
+      title: "ShopKart – MERN E-commerce",
+      desc: "Full-featured e-commerce platform with cart & checkout, JWT authentication, admin dashboard, and responsive UI.",
+      highlights: [
+        "Cart & checkout flow",
+        "JWT authentication + admin dashboard",
+        "Responsive UI & performance optimization",
+      ],
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+      img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+      live: "https://shopkart-topaz.vercel.app/",
+      github: "https://github.com/rajankumarrkr/Shopkart",
     },
   ];
 

@@ -12,12 +12,11 @@ const About = () => {
         </h2>
 
         <p className="mt-6 text-gray-600 text-lg leading-8">
-          I'm <span className="font-semibold text-blue-600">Rajan Kumar</span>, a 
-          passionate Full Stack MERN Developer who enjoys building scalable and 
-          user-friendly web applications. I focus on writing clean code, creating 
-          intuitive UI, and solving real-world problems with modern technologies. 
-          I am continuously improving my skills and exploring new tools to deliver 
-          better solutions.
+          I am a Full Stack Developer specializing in the MERN stack, with hands-on experience building scalable and production-ready web applications. Over the past 6 months as a freelance developer, I have successfully delivered 5+ full-stack projects, including platforms serving 1,000+ users, focusing on performance, security, and user experience.
+
+          I have solid expertise in developing end-to-end applications using React.js, Node.js, Express.js, and MongoDB, along with implementing secure authentication systems using JWT and designing RESTful APIs. My experience includes building real-world products such as a Learning Management System (Coursify), a Trip Planning Application (TravelMate), and an E-commerce platform (ShopKart).
+
+          I am passionate about writing clean, maintainable code and designing efficient backend architectures like Controller–Service–Model. I continuously strive to improve my skills in modern web technologies and aim to contribute to impactful, scalable digital solutions.
         </p>
 
         {/* Highlight Cards */}

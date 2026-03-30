@@ -3,22 +3,10 @@ import { FaBriefcase, FaLaptopCode, FaGraduationCap } from "react-icons/fa";
 const Experience = () => {
   const experience = [
     {
-      role: "MERN Stack Developer (Freelance)",
-      period: "2024 - Present",
-      desc: "Developing modern MERN web apps with secure backend, responsive UI, and deployment.",
+      role: "Freelance Full Stack Developer",
+      period: "2024 | Self-Employed (6 Months - Remote)",
+      desc: "Delivered 5+ production-level full-stack web applications using MERN stack. Built platforms with 1,000+ and 500+ users. Implemented JWT authentication, REST APIs, and optimized MongoDB database. Developed responsive UI using React.js and Tailwind CSS.",
       icon: <FaLaptopCode className="text-blue-600 text-2xl" />,
-    },
-    {
-      role: "Personal Projects & Learning",
-      period: "2023 - 2024",
-      desc: "Built real-world projects to strengthen full stack concepts, REST APIs, and problem solving.",
-      icon: <FaBriefcase className="text-green-600 text-2xl" />,
-    },
-    {
-      role: "Student (Full Stack Development)",
-      period: "2022 - 2023",
-      desc: "Focused on MERN stack fundamentals, algorithms, UI/UX, and deployment workflows.",
-      icon: <FaGraduationCap className="text-purple-600 text-2xl" />,
     },
   ];
 
